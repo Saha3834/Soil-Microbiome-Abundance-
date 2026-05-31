@@ -31,10 +31,8 @@ The benchmark shows that advanced models can improve random and K-fold performan
 
 ```text
 .
-├── notebooks/
-│   └── SoilMind_extended_leakage_aware_benchmark_stacking.ipynb
-├── data/
-│   └── README.md
+├── code/
+│   └── Soil_Microbe_leakage_aware_benchmark.ipynb
 ├── docs/
 │   ├── NOTEBOOK_WALKTHROUGH.md
 │   └── REPRODUCIBILITY.md
@@ -42,8 +40,6 @@ The benchmark shows that advanced models can improve random and K-fold performan
 ├── requirements.txt
 ├── environment.yml
 ├── .gitignore
-├── CITATION.cff
-└── LICENSE
 ```
 
 ## Notebook workflow
@@ -131,13 +127,11 @@ Important outputs include:
 
 ## Data availability
 
-The raw CSV dataset is not included in this repository because it may be large and derived from multiple external ecological sources. Place the dataset file in the runtime or project root using the expected filename:
+The raw CSV dataset is not included in this repository because it's  large and derived from multiple external ecological sources. Name of the used dataset is
 
 ```text
 SoilMind_v3_with_coordinates_and_nasa.csv
 ```
-
-See [`data/README.md`](data/README.md) for the expected data file and key columns.
 
 ## How to run
 
@@ -169,7 +163,7 @@ jupyter notebook
 Open:
 
 ```text
-notebooks/SoilMind_extended_leakage_aware_benchmark_stacking.ipynb
+notebooks/Soil_Microbe_leakage_aware_benchmark.ipynb
 ```
 
 ## Reproducibility notes
@@ -181,10 +175,4 @@ notebooks/SoilMind_extended_leakage_aware_benchmark_stacking.ipynb
 - Stacking is trained inside each outer split to avoid meta-learner leakage.
 - SHAP is used only as supporting interpretation, not as evidence of transferability.
 
-## Recommended citation
 
-See [`CITATION.cff`](CITATION.cff).
-
-## License
-
-This repository uses the MIT License. Change the license if your university, supervisor, or data providers require a different licensing arrangement.
