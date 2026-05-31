@@ -1,7 +1,7 @@
 
 # Dataset Access
 
-This repository does not include the processed SoilMind dataset.
+This repository does not include the processed dataset.
 
 The main notebook expects the following file:
 
