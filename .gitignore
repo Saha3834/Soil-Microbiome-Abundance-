@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.joblib
+
+# Outputs
+outputs_leakage_aware_extended_benchmark/
+outputs/
+figures/
+tables/
+models/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
