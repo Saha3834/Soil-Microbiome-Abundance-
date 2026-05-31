@@ -1,4 +1,4 @@
-# SoilMind: Leakage-Aware Soil Microbial Abundance Benchmark
+# A Leakage-Aware Soil Microbial Abundance Benchmark
 
 This repository contains a reproducible machine learning benchmark for predicting soil microbial abundance from integrated ecological data. The project focuses on **leakage-aware feature governance** and **spatial/temporal transfer evaluation**, rather than only reporting random train-test performance.
 
