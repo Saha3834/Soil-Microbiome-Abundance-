@@ -125,13 +125,25 @@ Important outputs include:
 - `subgroup_model_r2_heatmap.png`
 - `fungi_xgboost_top_shap_features.png`
 
-## Data availability
+## Data Availability
 
-The raw CSV dataset is not included in this repository because it's  large and derived from multiple external ecological sources. Name of the used dataset is
+The processed dataset used in this study is not included in this repository due to data size and redistribution considerations. The notebook expects the dataset file:
 
-```text
-SoilMind_v3_with_coordinates_and_nasa.csv
-```
+`SoilMind_v3_with_coordinates_and_nasa.csv`
+
+Researchers who need access to the processed dataset for academic or reproducibility purposes may request it from the authors.
+
+Please contact:
+
+**Author Name**  
+Email: `22603834@student.curtin.edu.au` or `22609573@student.curtin.edu.au`
+
+When requesting access, please briefly state:
+- your name and institution;
+- the purpose of use;
+- whether the dataset will be used for academic, teaching, or research reproduction purposes.
+
+The original source data products are available from NEON and NASA POWER. Users may also reconstruct the dataset using the source products and the processing workflow described in this repository.
 
 ## How to run
 
